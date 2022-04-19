@@ -1,0 +1,27 @@
+.box {
+    background-color: aqua;
+    display: flex;
+   /* flex-flow: column;*/
+    /*justify-content: space-between;*/
+}
+.header {
+   display: flex;
+   justify-content: space-between;
+}
+h1 {
+    align-items: flex-start;
+}
+small {
+    font-size: 15px;
+}
+img {
+    height: 200px;
+    width: 200px;
+}
+
+h1 {
+    color: brown;
+}
+h3 {
+    color: red;
+}
