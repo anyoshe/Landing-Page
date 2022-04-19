@@ -5,23 +5,57 @@
     /*justify-content: space-between;*/
 }
 .header {
-   display: flex;
-   justify-content: space-between;
-}
-h1 {
-    align-items: flex-start;
+    display: flex;
+    align-content:space-between;
+    justify-content: space-around;
+    padding-top: 0 px;
+    padding-bottom: 30;
+
+  
 }
 small {
     font-size: 15px;
+    color: blue;
 }
-img {
-    height: 200px;
-    width: 200px;
-}
-
 h1 {
-    color: brown;
+    color: red;
+    line-height: 15px;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-grow: 0.1;
+    padding-left: 10;
+
+}
+h2 {
+    display: flex;
+    align-content: space-around;
+    justify-content: space-evenly;
+    flex: 0.4;
+}
+ a:link {
+     text-decoration: none;
+ }
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
 }
 h3 {
     color: red;
+    font-size: 30px;
+     flex-wrap: wrap;
+    justify-items: center;
+    flex-grow: 2;
 }
+img {
+    height: 280px;
+    width: 450px;
+}
+button {
+    background-color: blue;
+    font-size: 20px;
+    color: aliceblue;
+    padding: 10;
+}
+
+
