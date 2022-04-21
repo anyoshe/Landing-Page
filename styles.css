@@ -1,6 +1,7 @@
 .box {
     background-color: aqua;
     display: block;
+    width: auto;
     padding-bottom: 50px;
 }
 .header {
@@ -83,6 +84,26 @@ figcaption {
     height: 230px;
     width: 230px;
     border-radius: 10px;
+}
+figure {
+    width: 100%;
+    background-color: rosybrown;
+    display: block;
+}
+blockquote {
+    font-size: xx-large;
+    font-style: italic;
+    text-align: justify;
+    padding-left: 40px;
+    padding-right: 100px;
+}
+footer {
+    text-align: right;
+    padding-right: 150px;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-style: normal;
+
 }
 
 @media only screen and (max-width: 768px) {
