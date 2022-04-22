@@ -1,11 +1,13 @@
 body {
     width:100%;
-}
+    }
 .box {
     background-color: aqua;
     display: block;
     width: auto;
     padding-bottom: 50px;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 .header {
     display: flex;
