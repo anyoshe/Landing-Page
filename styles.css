@@ -121,6 +121,9 @@ footer {
     font-size: larger;
     padding: 20px;
     border-radius: 12px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
 
 }
 .action_btn {
@@ -135,6 +138,14 @@ footer {
     justify-content: center;
 
 }
+.footer {
+    text-align: center;
+    font-size: larger;
+    color: white;
+    width: auto;
+    height: auto;
+    background-color: rgb(14, 13, 13);
+    padding: 40px;
 }
 }
 
